@@ -1,0 +1,26 @@
+body{
+    font-family:Impact; 
+    background-color: #EADEDB;  
+    color: #C0AB8E; 
+}
+h1{
+    color:#AD5D5D;
+    text-align: center
+}
+.first{
+    font-size: 1.7em;
+    font-weight: bold;
+    border-top:4px solid #B4B7BA;
+    border-bottom:4px solid #B4B7BA;
+}
+.img{
+    vertical-align: middle;
+    max-width: 25em;
+    max-height: 25em;
+    border-radius: 50%;
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+}
+
+
