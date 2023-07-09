@@ -1,26 +1,61 @@
 body{
-    font-family:Impact; 
-    background-color: #EADEDB;  
-    color: #C0AB8E; 
+    font-family:Impact;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-h1{
-    color:#AD5D5D;
-    text-align: center
+
+.main-block{
+    box-sizing: border-box;
+    padding: 50px;
+    color: #696969;
+    width: 64em;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    
 }
-.first{
-    font-size: 1.7em;
-    font-weight: bold;
-    border-top:4px solid #B4B7BA;
+
+.header{
     border-bottom:4px solid #B4B7BA;
 }
+h1{
+    font-size: 2.5em;
+    color: #696969;
+    text-align: left;
+}
+
+h2{
+    font-size: 1.5em;
+    font-style: inherit;
+    font-weight: lighter;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .first-column{
+    font-size: 1.7em;
+    border-top:4px solid #B4B7BA;
+    border-right:4px solid #B4B7BA;
+}
+
+.container .second-column{
+    font-size: 1.7em;
+    border-top:4px solid #B4B7BA;
+    position: relative;
+    padding-left: 30px;
+}
+
 .img{
     vertical-align: middle;
-    max-width: 25em;
-    max-height: 25em;
+    max-width: 15em;
+    max-height: 15em;
     border-radius: 50%;
     float: right; /* Обтекание картинки по левому краю */
-    padding-left: 10px; /* Отступ слева */
-    padding-bottom: 10px; /* Отступ снизу */
 }
 
 
