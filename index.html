@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -20,24 +21,123 @@
         <div class="container">
             <div class="first-column">
                 <nav>
+                    <h3 class="title">Contact</h3>
                     <div class="contact-info">
-                        <h3 class="title">Contact</h3>
                         <ul>
-                            <li>Contact</li>
-                            <li>Learning Programming</li>
-                            <li>My English is B1</li>
-                            <li>I'm studying in BSUIR</li>
-                            <li>I'm 18</li>
-                            <li>Love to kick the round ball</li>
-                            <li>I play csgo</li>
-                            <li>Idk what i can add</li>
+                            <li>
+                                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <span class="text">+375(33)351-06-10</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                                <span class="text">vailygione@gmail.com</span>
+                            </li>
+                            <li>
+                                <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                <span class="text">www.yahorkaratsiuk.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="title">Education</h3>
+                    <div class="contact-info">
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                                <span class="text">BSUIR</span>
+                            </li>
+                            <li>
+                                <span class="text">game design major</span>
+                            </li>
+                            <li>
+                                <span class="text">2021-p.t.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3 class="title">Skills</h3>
+                    <div class="contact-info">
+                        <ul>
+                            <li>
+                                <span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span>
+                                <span class="text">English: B1</span>
+                            </li>
+                            <li>
+                                 <span class="text">Comunication</span>
+                            </li>
+                            <li>
+                                <span class="text">C++</span>
+                            </li>
+                            <li>
+                                <span class="text">CSS</span>
+                            </li>
+                            <li>
+                                <span class="text">Git</span>
+                            </li>
+                            <li>
+                                <span class="text">Python</span>
+                            </li>
+                            <li>
+                                <span class="text">HTML</span>
+                            </li>
                         </ul>
                     </div>
                 </nav>
             </div>
             <div class="second-column">
                 <h3>About me</h3>
+                <span class="second-text">
+                    I communicate well with people, thanks to this there will always be a place for me in the team.<br>
+                    I am very good at learning new information quickly. I am very good at using various search engines.
+                </span>
+                <h3>Example of code</h3>
+                <div class="code">
+                    <code>
+                        <pre>
+void delCls(vector<Clothes*>& clothes) {
+    int m = 0;
+    cout << "\n\tВы хотите удалить :\n\t1 - Всю одежду, 2 - Один тип\n";
+    m = CheckInt(2);
+    if (m == 1)
+    {
+        clothes.clear();
+        cout << "\n\tУдаление прошло успешно!\n";
+    }
+    if (m == 2)
+    {
+        ReadVector(clothes);
+        int f;
+        cout << "\n\tВведите пункт одежды для удаления :\n ";
+        f = CheckInt(clothes.size());
+        clothes.erase(clothes.begin() + f - 1);
+        cout << "\n\tУдаление прошло успешно!\n";
+        ReadVector(clothes);
+    }
+    return;
+}
+                        </pre>
+                    </code>
+                </div>
+                <h3>Some of my projects</h3>
+                <ul>
+                    <li>
+                        <p>
+                            <a href="https://tyiooo.github.io/cssBayan/cssBayan/index.html" class="ref">
+                            CSS-Bayan
+                            </a>
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
+        <footer>
+            <p><a href="https://rs.school/js/">
+            <img src="rs_school_js.svg"  alt="rs-school" class="svg">
+            </a></p>
+            <span class="icon-footer"> <i class="fa fa-github" aria-hidden="true"></i></span>
+            <span class="git"><a href="https://github.com/Tyiooo">
+            GitHub<br>
+            </a></span>
+            <h3 class="year">2023</h3>
+         </footer>
+    </div>
 </body>
 </html>
