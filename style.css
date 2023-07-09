@@ -1,0 +1,124 @@
+body{
+    font-family:Impact;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block{
+    box-sizing: border-box;
+    padding: 50px;
+    color: #696969;
+    width: 64em;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    border-bottom:4px solid #B4B7BA;
+}
+h1{
+    font-size: 2.5em;
+    color: #696969;
+    text-align: left;
+    padding-left: 40px;
+}
+
+h2{
+    font-size: 1.5em;
+    font-style: inherit;
+    font-weight: lighter;
+    padding-left: 40px;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .first-column{
+    font-size: 1.7em;
+    border-top:4px solid #B4B7BA;
+    border-right:4px solid #B4B7BA;
+    border-bottom:4px solid #B4B7BA;
+}
+
+.container .second-column{
+    font-size: 1.7em;
+    border-top:4px solid #B4B7BA;
+    border-bottom:4px solid #B4B7BA;
+    position: relative;
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+
+.img{
+    vertical-align: middle;
+    max-width: 15em;
+    max-height: 15em;
+    border-radius: 50%;
+    float: right; /* Обтекание картинки по левому краю */
+}
+
+.title{
+    padding-left: 40px;
+}
+.contact-info{
+    font-size: 0.7em;
+    font-weight: lighter;
+}
+
+.contact-info ul{
+    position: relative;
+}
+
+.contact-info ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+}
+
+code{
+    font-size: 0.5em;
+    font-weight: lighter;
+}
+
+.second-text{
+    font-size: 0.5em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.footer span{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.svg{
+    max-width: 200px;
+    padding-top: 20px;
+    padding-right: 160px;
+    float: right;
+}
+
+.git a{
+    text-decoration: none;
+    color:#696969;
+    font-size: 30px;
+}
+
+.icon-footer{
+    font-size: 2em;
+    padding: 40px 0 70px 40px;
+}
+
+.year{
+    padding-left: 40px;
+    font-size: 2em;
+}
+.ref{
+    text-decoration: none;
+    color:#696969;
+}
